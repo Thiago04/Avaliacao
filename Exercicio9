@@ -1,0 +1,15 @@
+let idade = 15;
+let acompanhado = false;
+
+if (idade >= 18){
+    console.log("Pode entrar!");
+}
+if (idade >= 16 && acompanhado == true){
+    console.log("Você pode entrar, pois esta acompanhado!");
+}
+if (idade >= 16 && acompanhado == false){
+    console.log("Você não pode entrar, pois não esta acompanhado");
+}
+if (idade < 16){
+    console.log("Você não pode entrar, pois não tem idade!")
+}

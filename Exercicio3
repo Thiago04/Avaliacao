@@ -1,0 +1,8 @@
+let palavra = "fogo";
+
+if (palavra === "fogo") {
+    console.log ("Você pode passar")
+}
+else {
+    console.log ("Você não pode passar, tente novamente!")
+}

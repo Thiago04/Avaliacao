@@ -1,0 +1,11 @@
+let valor = 99.99;
+
+if (valor > 100 && valor < 200) {
+    console.log("Você ganhou 10% de desconto, o valor final é: " + (valor - (valor * 0, 10)));
+}
+if (valor > 200) {
+    console.log("Você ganhou 20% de desconto, o valor final é: " + (valor - (valor * 0, 20)));
+}
+if (valor < 100) {
+    console.log("Não se aplica desconto");
+}

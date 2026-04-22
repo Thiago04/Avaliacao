@@ -1,0 +1,9 @@
+let idade = 18;
+let espada = "sim";
+
+if (idade >= 16 && espada === "sim") {
+    console.log("Pode participar do tornoneio!");
+}
+else {
+    console.log("Não pode participar do torneio!");
+}

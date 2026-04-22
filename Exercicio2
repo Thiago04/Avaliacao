@@ -1,0 +1,8 @@
+let valor = 99;
+
+if (valor >= 100){
+    console.log("PARABÈNS! Você ganhou desconto na sua compra!");       
+}
+else {
+    console.log("Você precisa comprar mais para ganhar desconto! Não foi dessa vez!");
+}
