@@ -1,4 +1,4 @@
-let senha = 1234;
+let senha = "";
 
 if (senha === 1234) {
     console.log("Senha correta!");
@@ -6,6 +6,6 @@ if (senha === 1234) {
 if (senha != 1234) {
     console.log("Senha Incorreta!");
 }
-if (senha === ' '){
+if (senha == ""){
     console.log("Digite uma senha");
 }
